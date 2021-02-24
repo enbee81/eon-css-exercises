@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import 'reset';
+
+.headline-group {
+  /* This is where the magic happens */
+
+}
+
+
+/* You should not need to touch this */
+
+body {
+  color: #f09;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #003;
+  padding: 1rem;
+  font-family: "Open Sans", sans-serif;
+}
+.container {
+  color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1.5rem 2rem;
+  width: 36rem;
+  max-width: 100%;
+  background: #fff2;
+  direction: ltr;
+  resize: horizontal;
+  overflow: hidden;
+  border-radius: 0.5em;
+
+  + * {
+    margin-top: 2rem;
+  }
+}
+
+.pill {
+  font-size: 0.875em;
+  display: inline-block;
+  padding: 0.375em 0.75em;
+  line-height: 1;
+  border-radius: 1em;
+  background: #f09;
+  color: #401;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 1.5em;
+  margin: 0;
+  font-weight: bold;
+}
+p {
+  line-height: 1.5;
+  opacity: 0.75;
+  margin: 1em 0 0;
+}
+
+hr {
+  margin: 1rem 0 1.5rem;
+  border: none;
+  border-top: 1px solid #fff3;
+}
