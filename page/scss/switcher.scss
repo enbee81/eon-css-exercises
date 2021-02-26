@@ -1,0 +1,50 @@
+@import 'reset';
+
+.switcher {
+  overflow: hidden;
+
+  > * {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  > * > * {
+    flex-grow: 1;
+  }
+}
+
+
+// Additional Styling. Not needed for your project.
+* {
+  box-sizing: border-box;
+}
+body {
+  padding: 1rem;
+  line-height: 1.5;
+  background: #f0f0f0;
+}
+.box {
+  border: 1px solid #f09;
+  padding: 1rem;
+  border-radius: 0.25rem;
+
+  h3 {
+    font-size: 1rem;
+    margin: 0 0 0.5rem;
+  }
+
+  p {
+    margin: 0;
+  }
+}
+
+
+.container {
+  border: 1px dashed #999;
+  background: #fff;
+  min-height: calc(100vh - 6rem);
+  resize: horizontal;
+  overflow: auto;
+  padding: 1rem;
+  max-width: 100%;
+}
